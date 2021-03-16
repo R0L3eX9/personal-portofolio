@@ -25,9 +25,9 @@ const Contact = () => {
       <h1 className="text-white text-5xl font-medium py-16">Contact</h1>
       <div className="social-media flex flex-col justify-center items-center">
         <p className="text-secondary text-2xl font-bold">Work with me:</p>
-        <div className="email flex p-10 justify-center itmes-center">
+        <div className="email flex py-10 justify-center itmes-center">
           <FiMail color="#5bf55b" size="2rem" />
-          <p className="text-secondary font-bold text-xl cursor-pointer pl-4 hover:underline">razvan.cmaracine@gmail.com</p>
+          <p className="text-secondary font-bold text-lg cursor-pointer pl-4 hover:underline">razvan.cmaracine@gmail.com</p>
         </div>
         <div className="flex">
           <AiOutlineTwitter id="twitter" color="#5bf55b" size="2.5rem" className="m-4 cursor-pointer" onClick={handleClick} />
