@@ -1,11 +1,12 @@
 import { DiGithubBadge, DiMongodb, DiNodejsSmall, DiReact, DiTerminal } from 'react-icons/di';
 import { FcLinux } from "react-icons/fc";
 import { SiTailwindcss } from "react-icons/si";
+
 const Skills = () => {
   return (
-    <div id="skills" className="skills bg-primary text-center">
+    <div id="skills" className="skills bg-primary text-center mb-4">
       <h1 className="text-white text-5xl font-medium py-16">Skills</h1>
-      <div className="icons flex flex-col md:flex-row pb-20 items-center justify-around">
+      <div className="icons flex flex-wrap md:flex-nowrap pb-20 items-center justify-around">
         <DiMongodb size="8rem" color="#4CAF50" />
         <DiNodejsSmall size="8rem" color="#3B8739" />
         <DiReact size="8rem" color="#41E0FD" />

@@ -1,6 +1,5 @@
-import {BrowserRouter as Router} from 'react-router-dom';
-
 import './App.css';
+
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Skills from './components/Skills';
@@ -16,7 +15,7 @@ function App() {
       <Home/>
       <Skills/>
       <About/> 
-      <Router><Work/></Router>
+      <Work/>
       <Contact/>
       <Footer/>
     </div>

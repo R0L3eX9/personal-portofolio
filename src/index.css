@@ -16,3 +16,7 @@
 .sidebar-link {
   @apply p-5 cursor-pointer hover:bg-secondary transition ease-in;
 }
+
+.icons-flex {
+  @apply lg:flex lg:items-center lg:justify-around;
+}
