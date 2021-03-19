@@ -9,7 +9,16 @@ module.exports = {
       },
       fontFamily: {
         'poppins': ['Poppins', 'sans-serif']
-      }
+      },
+      keyframes: {
+        fade: {
+          '0%': { opacity: '0'},
+          '100%': { opacity: '1'},
+        }
+      },
+      animation: {
+        'fade-in': 'fade 1s ease-in'
+      },
     },
   },
   variants: {

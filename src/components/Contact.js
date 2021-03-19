@@ -9,8 +9,8 @@ import { FiMail} from 'react-icons/fi';
 const Contact = () => {
 
   useEffect(() => {
-    Aos.init({ duration: 2000 });
-  }, []);
+    Aos.init({ duration: 1000, once: true });
+  }, [])
 
   const handleClick = (e) => {
     const element = e.target;
@@ -32,8 +32,8 @@ const Contact = () => {
   return (
     <div  id="contact" className="contact bg-primary text-center">
       <h1 data-aos="fade-down" className="text-white text-5xl font-medium py-16">Contact</h1>
-      <div data-aos="fade-down" className="social-media flex flex-col justify-center items-center">
-        <p  className="text-secondary text-2xl font-bold">Work with me:</p>
+      <div data-aos="zoom-in" className="social-media flex flex-col justify-center items-center">
+        <p className="text-secondary text-2xl font-bold">Work with me:</p>
         <div className="email flex py-10 justify-center itmes-center">
           <FiMail color="#5bf55b" size="2rem" />
           <p className="text-secondary font-bold text-lg cursor-pointer pl-4 hover:underline">razvan.cmaracine@gmail.com</p>

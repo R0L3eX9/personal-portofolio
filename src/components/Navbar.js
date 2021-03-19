@@ -2,7 +2,6 @@ import { useState } from 'react';
 import { FiMenu } from 'react-icons/fi';
 import Sidebar from './Sidebar';
 
-
 const Navbar = () => {
 
   const [burgerState, setBurgerState] = useState(false);
@@ -13,7 +12,6 @@ const Navbar = () => {
     setBurgerState(false);
   }
   
-
   return (
     <div className="nav-bar">
       <nav className="flex bg-primary text-white items-center justify-between">
