@@ -11,7 +11,7 @@ import JokeGenerator from '../img/jokegenerator.png';
 const Work = () => {
 
   useEffect(() => {
-    Aos.init({ duration: 1000 });
+    Aos.init({ duration: 2000 });
   }, [])
 
   const links = [

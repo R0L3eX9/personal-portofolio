@@ -7,7 +7,7 @@ import { useEffect } from 'react';
 const About = () => {
 
   useEffect(() => {
-    Aos.init({ duration: 2000 });
+    Aos.init({ duration: 3000 });
   }, [])
 
   return (
@@ -26,8 +26,8 @@ const About = () => {
             <p>
               I have started programming in 2019 when I was 15 years old, I started by learning Python, and after learning
               the syntax I created some small console applications. In our school we use C++ for algorithms, so after Python I
-              started learning C++ and at the same time I got introduced to competitive programming because of a video on youtube.
-              Now I found my passions which are Web Development and competitive programming, so I try to do them both daily and
+              started learning C++ and at the same time I got introduced to Competitive Programming because of a video on youtube.
+              Now I found my passions which are Web Development and Competitive Programming, so I try to do them both daily and
               I aspire to become a back-end developer.
             </p>
           </div>
