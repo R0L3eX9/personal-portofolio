@@ -1,8 +1,17 @@
+import { useEffect } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+
 import { DiGithubBadge, DiMongodb, DiNodejsSmall, DiReact, DiTerminal } from 'react-icons/di';
-import { FcLinux } from "react-icons/fc";
-import { SiTailwindcss } from "react-icons/si";
+import { FcLinux } from 'react-icons/fc';
+import { SiTailwindcss } from 'react-icons/si';
 
 const Skills = () => {
+
+  useEffect(() => {
+    Aos.init({ duration: 1000});
+  }, []);
+
   return (
     <div id="skills" className="skills bg-primary text-center mb-4">
       <h1 className="text-white text-5xl font-medium py-16">Skills</h1>

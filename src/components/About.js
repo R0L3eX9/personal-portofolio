@@ -7,7 +7,7 @@ import Picture from '../img/picture.jpg';
 const About = () => {
 
   useEffect(() => {
-    Aos.init({ duration: 1000, once: true });
+    Aos.init({ duration: 1000});
   }, [])
 
   return (

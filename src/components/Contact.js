@@ -9,7 +9,7 @@ import { FiMail} from 'react-icons/fi';
 const Contact = () => {
 
   useEffect(() => {
-    Aos.init({ duration: 1000, once: true });
+    Aos.init({ duration: 1000});
   }, [])
 
   const handleClick = (e) => {
